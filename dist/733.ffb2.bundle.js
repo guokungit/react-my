@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcustomapp=self.webpackChunkcustomapp||[]).push([[733],{733:(e,t,l)=>{l.r(t),l.d(t,{default:()=>a});var u=l(540);const a=function(){return u.createElement("div",null,u.createElement("h1",null,"Home Page"),u.createElement("p",null,"Welcome to the home page of the custom app!"))}}}]);
