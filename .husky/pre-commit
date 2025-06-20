@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 执行ESLint检查
+npm run lint
+
+# 或者同时执行格式化和检查
+# npm run format && npm run lint
