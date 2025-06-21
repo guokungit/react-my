@@ -3,7 +3,7 @@
 ## 功能
 1、react         (√)
 2、react-router  (√)
-3、react—redux   (x)
+3、react—redux   (√)
 4、husky         (√)
 5、eslint        (√)
 6、prettier      (√)
