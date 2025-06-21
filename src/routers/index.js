@@ -3,13 +3,14 @@ import { Navigate } from 'react-router-dom';
 import LazyLoad from './lazyLoad.js';
 import React from 'react';
 
-const Home = LazyLoad(() => import('../pages/home/index.tsx'));
+// const Home = LazyLoad(() => import('../pages/home/index.tsx'));
 const About = LazyLoad(() => import('../pages/about/index.tsx'));
+const Counter = LazyLoad(() => import('../components/Counter/Counter.jsx'));
 
 const routers = [
   {
     path: '/',
-    element: <Home />,
+    element: <Counter />,
   },
   {
     path: '/about',
